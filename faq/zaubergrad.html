@@ -1,0 +1,225 @@
+<!--
+title: Template Klasse
+description: 
+published: 1
+date: 2024-01-13T14:10:19.399Z
+tags: template
+editor: ckeditor
+dateCreated: 2024-01-13T14:10:19.399Z
+-->
+
+<h2>Swamplord</h2>
+<figure class="table" style="float:left;">
+  <table style="border-bottom:none;border-left:none;border-right:none;border-top:none;">
+    <tbody>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;" colspan="3">Rettungswürfe</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;" colspan="9">Zauber</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">LvL</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">GAB</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">Re</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">Wi</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">Zä</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">Besondere Fähigkeit</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">1</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">4</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">5</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">7</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">8</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">9</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">1</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+0</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">0</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+1</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">0</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">1</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">4</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">1</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">4</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">4</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">5</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">1</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">4</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">4</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+4</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">5</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">5</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">7</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+5</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">5</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">5</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">8</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">2</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">9</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">6</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">10</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">+7</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">3</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">7</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">7</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1pt solid hsl(0, 0%, 0%);border-left:1pt solid hsl(0, 0%, 0%);border-right:1pt solid hsl(0, 0%, 0%);border-top:1pt solid hsl(0, 0%, 0%);padding:5pt;vertical-align:top;">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+        <td style="border-bottom:1px solid hsl(0, 0%, 0%);border-left:1px solid hsl(0, 0%, 0%);border-right:1px solid hsl(0, 0%, 0%);border-top:1px solid hsl(0, 0%, 0%);">&nbsp;</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p style="text-align:justify;"><i>Flavortext hier.</i></p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p style="text-align:justify;"><strong>Feature 1: </strong>Details&nbsp;</p>
