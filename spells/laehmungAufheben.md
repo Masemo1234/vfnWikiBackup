@@ -2,7 +2,7 @@
 title: Lähmung aufheben
 description: 
 published: 1
-date: 2024-01-13T16:46:46.745Z
+date: 2024-01-13T16:47:18.470Z
 tags: zauber
 editor: markdown
 dateCreated: 2024-01-13T16:43:20.246Z
